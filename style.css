@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container-bar{
+    background-color: aqua;
+}
+.navbar{
+    background-color: yellow;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
