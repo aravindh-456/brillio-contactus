@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: outfit;
+  line-height: 2;
+  border: 2px solid black;
+}
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  background: green;
+  padding: 15px;
+}
+.product {
+  border: 2px solid black;
+  width: 850px;
+  margin: 0 auto;
+}
+.price {
+  font-size: 30px;
+}
+.shipping {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: chartreuse;
+  margin-bottom: 20px;
+}
+.more-info {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.more-info:active {
+  color: blue;
+}
+.img {
+  color: chartreuse;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.img-list {
+  list-style: square;
+  margin-left: 20px;
+}
+.img-list li {
+  margin-bottom: 10px;
+}
+.com {
+  background-color: blue;
+  border: none;
+  color: red;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+}
+.com:hover {
+  color: chartreuse;
+  background-color: #fff;
+}
+.main-header {
+  background-color: #f7f7f7;
+  padding: 28px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+post-header {
+  margin-bottom: 40px;
+}
+article {
+  margin-bottom: 60px;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid rgb(16, 157, 212);
+  border-bottom: 5px solid rgb(16, 157, 212);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 500px;
+}
+h1,
+h2,
+h3 {
+  color: aqua;
+}
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+#copyright {
+  font-size: 16px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.related {
+  list-style: none;
+}
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+article p:first-child {
+  color: red;
+}
+a:link {
+  color: aqua;
+  text-decoration: none;
+}
+a:visited {
+  color: aqua;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+.post-img {
+  width: 800px;
+  height: auto;
+}
+nav a:link {
+ 
+  margin: 20px;
+  margin-top: 18px;
+  display: inline;
+}
+ 
